@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SyedAzhar234_kafka_1705436377167-push-trigger-input-set
+  identifier: Build_SyedAzhar234_kafka_1705436377167pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Kafkatest
+  pipeline:
+    identifier: Build_SyedAzhar234_kafka_1705436377167
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
